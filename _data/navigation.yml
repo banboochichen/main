@@ -6,7 +6,7 @@ main:
     description: "The documentation for this theme, on https://perstarke-webdev.de"
   - title: "Section 1"
     url: /#section-1
-    blank: false
+    blank: ture
   - title: "Section 2"
     url: /#section-2
     blank: false
