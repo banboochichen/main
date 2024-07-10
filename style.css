@@ -11,7 +11,7 @@ body{
 /* 标题容器样式 */
 .heading-container {
   justify-content: flex-start; /* 从左向右排列子元素 */
-  align-items: center; /* 垂直居中 */
+  /*align-items: center;  垂直居中 */
   position: fixed; /* 固定在页面顶部 */
   top: 0; /* 与页面顶部对齐 */
   width: 100%; /* 宽度为100% */
@@ -35,12 +35,12 @@ body{
 }
 
 .heading:nth-child(2) {
-  margin-left: 80vw; /* 自定义第二个标题的左边距 */
+  margin-left: 76vw; /* 自定义第二个标题的左边距 */
   margin-top: 2vw;
 }
 
 .heading:nth-child(3) {
-  margin-left: 85vw; /* 自定义第三个标题的左边距 */
+  margin-left: 83vw; /* 自定义第三个标题的左边距 */
   margin-top: 2vw;
 }
 
