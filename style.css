@@ -23,15 +23,28 @@ body{
 }
 
 /* 每个标题的样式 */
-.heading-container h1,
-.heading-container h2,
-.heading-container h3,
-.heading-container h4 {
-  margin: 0 20px; /* 左右外边距 */
+.heading {
+  margin: 0; /* 去掉标题的默认外边距 */
   color: white; /* 字体颜色 */
   font-size: 1.5em; /* 字体大小 */
+  /* 自定义横向位置 */
 }
 
+.heading:nth-child(1) {
+  margin-left: 20vh; /* 自定义第一个标题的左边距 */
+}
+
+.heading:nth-child(2) {
+  margin-left: 50vh; /* 自定义第二个标题的左边距 */
+}
+
+.heading:nth-child(3) {
+  margin-left: 100vh; /* 自定义第三个标题的左边距 */
+}
+
+.heading:nth-child(4) {
+  margin-left: 150vh; /* 自定义第四个标题的左边距 */
+}
 /* 页面主要内容样式 */
 .content {
   padding-top: 500px; /* 确保内容不会被固定的标题栏覆盖 */
