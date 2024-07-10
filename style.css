@@ -5,35 +5,18 @@ body{
   -o-background-size: cover;      
   background-size: cover;
   }
-h1{
-  /*text-align: center;*/
-    padding-top: 20vh; /* 距离顶部一些空间 */
-    padding-left: 20vh;
-    font-size: 3em; /* 设置字体大小 */
-    font-size: 1.5em; /* 设置字体大小 */
+  .heading-container {
+    display: flex;
+    justify-content: space-around; /* 使标题在容器中均匀分布 */
+    align-items: center; /* 使标题在垂直方向上居中对齐 */
     color:white;
 }
-h2{
-  /*text-align: center;*/
-    padding-top: 20vh; /* 距离顶部一些空间 */
-    padding-left: 40vh;
-    font-size: 3em; /* 设置字体大小 */
-    font-size: 1.5em; /* 设置字体大小 */
-    color:white;
-}
-h3{
-  /*text-align: center;*/
-    padding-top: 20vh; /* 距离顶部一些空间 */
-    font-size: 3em; /* 设置字体大小 */
-    font-size: 1.5em; /* 设置字体大小 */
-    color:white;
-}
-h4{
-  /*text-align: center;*/
-    padding-top: 20vh; /* 距离顶部一些空间 */
-    font-size: 3em; /* 设置字体大小 */
-    font-size: 1.5em; /* 设置字体大小 */
-    color:white;
+
+.heading-container h1,
+.heading-container h2,
+.heading-container h3,
+.heading-container h4 {
+    margin: 0 10px; /* 设置左右间距 */
 }
 p{
   /*text-align: center;*/
