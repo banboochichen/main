@@ -16,7 +16,7 @@ body{
   position: fixed; /* 固定在页面顶部 */
   top: 0; /* 与页面顶部对齐 */
   width: 100%; /* 宽度为100% */
-  background-color: #00e67b; /* 背景颜色 */
+  background-color: #a9e600; /* 背景颜色 */
   padding: 10px; /* 内边距 */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
   z-index: 1000; /* 确保在其他内容上方 */
@@ -34,9 +34,6 @@ body{
 
 /* 页面主要内容样式 */
 .content {
-  padding-top: 800px; /* 确保内容不会被固定的标题栏覆盖 */
+  padding-top: 200px; /* 确保内容不会被固定的标题栏覆盖 */
   padding: 20px; /* 内边距 */
-}
-p{
-  padding-top: 800px; /* 确保内容不会被固定的标题栏覆盖 */
 }
