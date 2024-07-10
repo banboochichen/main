@@ -5,25 +5,32 @@ body{
   -o-background-size: cover;      
   background-size: cover;
   }
-  .heading-container {
-    display: grid;
-    grid-template-columns: repeat(4, auto); /* 创建四个列，每列自动宽度 */
-    gap: 10px; /* 设置列之间的间距 */
-    justify-content: space-around; /* 使标题在容器中均匀分布 */
-    align-items: center; /* 使标题在垂直方向上居中对齐 */
-    color:white;
+/* 标题容器样式 */
+.heading-container {
+  display: flex;
+  justify-content: space-between; /* 在容器中均匀分布元素 */
+  align-items: center; /* 垂直居中 */
+  position: fixed; /* 固定在页面顶部 */
+  top: 0; /* 与页面顶部对齐 */
+  width: 100%; /* 宽度为100% */
+  background-color: #0073e6; /* 背景颜色 */
+  padding: 10px; /* 内边距 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+  z-index: 1000; /* 确保在其他内容上方 */
 }
 
+/* 每个标题的样式 */
 .heading-container h1,
 .heading-container h2,
 .heading-container h3,
 .heading-container h4 {
-    margin: 0; /* 去掉标题的默认外边距 */
+  margin: 0 20px; /* 左右外边距 */
+  color: white; /* 字体颜色 */
+  font-size: 1.5em; /* 字体大小 */
 }
-p{
-  /*text-align: center;*/
-    padding-top: 20vh; /* 距离顶部一些空间 */
-    font-size: 3em; /* 设置字体大小 */
-    font-size: 1.5em; /* 设置字体大小 */
-    color:white;
+
+/* 页面主要内容样式 */
+.content {
+  padding-top: 80px; /* 确保内容不会被固定的标题栏覆盖 */
+  padding: 20px; /* 内边距 */
 }
