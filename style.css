@@ -37,3 +37,6 @@ body{
   padding-top: 800px; /* 确保内容不会被固定的标题栏覆盖 */
   padding: 20px; /* 内边距 */
 }
+p{
+  padding-top: 800px; /* 确保内容不会被固定的标题栏覆盖 */
+}
