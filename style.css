@@ -10,8 +10,8 @@ body{
   }
 /* 标题容器样式 */
 .heading-container {
-  justify-content: flex-start; /* 从左向右排列子元素 */
-  /*align-items: center;  垂直居中 */
+  display: flex; /* 从左向右排列子元素 */
+  align-items: center;  /*垂直居中 */
   position: fixed; /* 固定在页面顶部 */
   top: 0; /* 与页面顶部对齐 */
   width: 100%; /* 宽度为100% */
@@ -26,6 +26,7 @@ body{
   margin: 0; /* 去掉标题的默认外边距 */
   color: white; /* 字体颜色 */
   font-size: 1.5em; /* 字体大小 */
+  flex: 0 0 auto
   /* 自定义横向位置 */
 }
 
