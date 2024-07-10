@@ -12,3 +12,31 @@ h1{
     font-size: 1.5em; /* 设置字体大小 */
     color:white;
 }
+h2{
+  text-align: center;
+    padding-top: 20vh; /* 距离顶部一些空间 */
+    font-size: 3em; /* 设置字体大小 */
+    font-size: 1.5em; /* 设置字体大小 */
+    color:white;
+}
+h3{
+  text-align: center;
+    padding-top: 20vh; /* 距离顶部一些空间 */
+    font-size: 3em; /* 设置字体大小 */
+    font-size: 1.5em; /* 设置字体大小 */
+    color:white;
+}
+h4{
+  text-align: center;
+    padding-top: 20vh; /* 距离顶部一些空间 */
+    font-size: 3em; /* 设置字体大小 */
+    font-size: 1.5em; /* 设置字体大小 */
+    color:white;
+}
+p{
+  text-align: center;
+    padding-top: 20vh; /* 距离顶部一些空间 */
+    font-size: 3em; /* 设置字体大小 */
+    font-size: 1.5em; /* 设置字体大小 */
+    color:white;
+}
