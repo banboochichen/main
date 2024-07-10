@@ -30,19 +30,23 @@ body{
 }
 
 .heading:nth-child(1) {
-  margin-left: 5vw; /* 自定义第一个标题的左边距 */
+  margin-left: 3vw; /* 自定义第一个标题的左边距 */
+  margin-top: 2vw;
 }
 
 .heading:nth-child(2) {
-  margin-left: 55vw /* 自定义第二个标题的左边距 */
+  margin-left: 80vw; /* 自定义第二个标题的左边距 */
+  margin-top: 2vw;
 }
 
 .heading:nth-child(3) {
-  margin-left: 70vw; /* 自定义第三个标题的左边距 */
+  margin-left: 85vw; /* 自定义第三个标题的左边距 */
+  margin-top: 2vw;
 }
 
 .heading:nth-child(4) {
-  margin-left: 85vw; /* 自定义第四个标题的左边距 */
+  margin-left: 90vw; /* 自定义第四个标题的左边距 */
+  margin-top: 2vw;
 }
 /* 页面主要内容样式 */
 .content {
