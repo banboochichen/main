@@ -39,6 +39,7 @@ body{
 }
 p{
   text-align: center;
-  padding-top: 50vh; /* 确保内容不会被固定的标题栏覆盖 */
+  padding-top: 25vh; /* 确保内容不会被固定的标题栏覆盖 */
   font-size: 3em; /* 设置字体大小 */
+  color: white; /* 字体颜色 */
 }
