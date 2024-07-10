@@ -1,0 +1,10 @@
+<style type="text/css">
+    body{
+        background: url("image/background.jpg") no-repeat center center fixed;
+        //兼容浏览器版本
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        //把背景图片放大到适合元素容器的尺寸         
+        background-size: cover;
+        }
+</style>
