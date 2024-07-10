@@ -10,8 +10,7 @@ body{
   }
 /* 标题容器样式 */
 .heading-container {
-  display: flex;
-  justify-content: space-between; /* 在容器中均匀分布元素 */
+  justify-content: flex-start; /* 从左向右排列子元素 */
   align-items: center; /* 垂直居中 */
   position: fixed; /* 固定在页面顶部 */
   top: 0; /* 与页面顶部对齐 */
