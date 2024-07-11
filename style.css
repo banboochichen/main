@@ -32,8 +32,8 @@ body{
 
 .heading:nth-child(1) {
   margin-left: 0.5vw; /* 自定义第一个标题的左边距 */
-  margin-top: 0.5vw;
-  width: 20px; /* 设置图片宽度 */
+  margin-top: 0.3vw;
+  width: 1px; /* 设置图片宽度 */
   height: auto; /* 保持宽高比 */
 }
 
