@@ -31,21 +31,27 @@ body{
 }
 
 .heading:nth-child(1) {
-  margin-left: 3vw; /* 自定义第一个标题的左边距 */
+  margin-left: 0.5vw; /* 自定义第一个标题的左边距 */
   margin-top: 0.5vw;
+  width: 20px; /* 设置图片宽度 */
+  height: auto; /* 保持宽高比 */
 }
 
 .heading:nth-child(2) {
-  margin-left: 65vw; /* 自定义第二个标题的左边距 */
+  margin-left: 3vw; /* 自定义第二个标题的左边距 */
   margin-top: 0.5vw;
 }
 
 .heading:nth-child(3) {
-  margin-left: 5vw; /* 自定义第三个标题的左边距 */
+  margin-left: 65vw; /* 自定义第三个标题的左边距 */
   margin-top: 0.5vw;
 }
 
 .heading:nth-child(4) {
+  margin-left: 5vw; /* 自定义第四个标题的左边距 */
+  margin-top: 0.5vw;
+}
+.heading:nth-child(5) {
   margin-left: 5vw; /* 自定义第四个标题的左边距 */
   margin-top: 0.5vw;
 }
@@ -57,30 +63,16 @@ body{
 p{
   text-align: center;
   padding-top: 25vh; /* 确保内容不会被固定的标题栏覆盖 */
-  font-size: 5em; /* 设置字体大小 */
+  font-size: 8em; /* 设置字体大小 */
   color: white; /* 字体颜色 */
 }
-p1{
+q{
   text-align: center;
-  padding-top: 25vh; /* 确保内容不会被固定的标题栏覆盖 */
+  padding-top: 40vh; /* 确保内容不会被固定的标题栏覆盖 */
   font-size: 5em; /* 设置字体大小 */
   color: white; /* 字体颜色 */
 }
 a{
   color: inherit;
-}
-
-
-/* logo和标题容器样式 */
-.logo-heading {
-  display: flex; /* 使用 Flexbox 布局 */
-  margin-left: 0.1vw;
-}
-
-/* logo图片样式 */
-.logo {
-  width: 50px; /* 设置图片宽度 */
-  height: auto; /* 保持宽高比 */
-  margin-right: 10px; /* 图片与标题之间的间距 */
 }
 
